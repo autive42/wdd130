@@ -1,0 +1,33 @@
+body{
+    background-color: #669bbc;
+}
+
+main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.portrait{max-width: 30%;}
+
+section.top{
+    text-align: center;
+    color: white;
+}
+
+ol{font-weight: bold;}
+
+li{padding: 0.5em;}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption{
+    text-align: center;
+}
+blockquote{
+    color: white;
+    max-width: 50%;
+    margin: auto;
+}

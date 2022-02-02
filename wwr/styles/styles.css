@@ -1,8 +1,75 @@
+:root {
+    --primary-color: #669bbc;
+    --secondary-color: #003049;
+    --accent1-color: #c1121f;
+    --accent2-color: #fdf0d5;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 body {
-    background-color: white;
+    background-color: #fcfbfb;
 }
 
-h1 {
-    font-size: 3em;
+header {
+    background-color: var(--secondary-color);
 }
 
+nav a {
+    text-align: center;
+    color: var(--accent2-color)
+}
+
+nav a:hover {
+    background-color: var(--accent1-color);
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.home-title {
+    color:
+}
+
+h4 {
+    color: ;
+}
+
+.book, .join {
+    background-color: var(--secondary-color);
+}
+
+.button-box {
+    text-align: center;
+}
+
+.book:hover, .join:hover {
+    background-color: var(--primary-color);
+}
+
+main section {
+    text-align: center;
+}
+
+.msg h2 {}
+
+.msg p {}
+
+#background {
+    height: 725px;
+    background-color: var(--primary-color);
+}
+
+.msg {
+    background-color: var(--secondary-color);
+}
+
+footer h3 {}
+
+footer a {}
+
+footer a:hover {}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Quintessential&display=swap');
+
 :root {
 	--primary-color: #669bbc;
 	--secondary-color: #003049;
@@ -12,6 +14,10 @@
 
 body {
 	background-color: #fcfbfb;
+        font-family: 'Mukta', Arial. sans-serif;
+        font-size: 22px;
+        margin: 0;
+        padding: 0;
 }
 
 header {
@@ -20,12 +26,14 @@ header {
 
 .logo {
 	width: 80px;
+        padding-top: 25px;
 }
 
 nav a {
 	text-align: center;
 	color: var(--secondary-color);
         text-decoration: none;
+        padding: 35px;
 }
 
 nav a:hover {
@@ -39,6 +47,9 @@ nav a:hover {
 
 .home-title {
 	color: black;
+        font-family: 'Quintessential', cursive;
+        font-size: 2em;
+        margin-top: 10px;
 }
 
 h4 {
@@ -49,7 +60,10 @@ h4 {
 	background-color: var(--primary-color);
         text-decoration: none;
         color: black;
-}
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+ 35px}
 
 .button-box {
 	text-align: center;
@@ -64,9 +78,27 @@ main section {
 	text-align: center;
 }
 
-.msg h2 {}
+.rivers-card, .camping-card, .rapids-card { 
+        margin: 200px 0;
+}
 
-.msg p {}
+icon {
+        padding-top: 10px;
+}
+
+.msg {
+        color: black;
+        padding: 35px;
+}
+
+.msg h2 {
+        font-family: 'Quintessential', cursive;
+}
+
+.msg p {
+        font-size: .8em
+        padding-bottom: 15px:
+}
 
 #background {
 	height: 725px;
@@ -79,6 +111,8 @@ main section {
 
 footer {
         background-color: var(--primary-color);
+        padding: 25px 50px;
+        margin-top: 200px;
 }
 
 footer h3 {
@@ -96,4 +130,8 @@ footer a:hover {
 
 footer h3 a:hover {
         text-decoration: underline
+}
+
+footer .social img {
+        padding-top: 15px;
 }
